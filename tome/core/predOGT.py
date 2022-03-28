@@ -20,7 +20,7 @@ import sys
 import os
 import pandas as pd
 from Bio import SeqIO
-from sklearn.externals import joblib
+import joblib
 from collections import Counter
 from multiprocessing import Pool, cpu_count
 import numpy as np
